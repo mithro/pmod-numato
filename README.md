@@ -1,6 +1,9 @@
 # pmod-numato
 
-Adapter for going from Numato&lt;->Pmod multi-pmod spacing.
+This adapter is useful for the following;
+
+ * From from Numato's 0.2inch spacing to Digilent's 0.3 inch spacing.
+ * Adapting the "XADC" style to the "HS" style. See [my high speed Pmod sheet for details](https://docs.google.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1WEORo1LAIt92hk1bZGEoo/edit#gid=725118408).
 
 ## License
 
