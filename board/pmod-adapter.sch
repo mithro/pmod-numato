@@ -255,7 +255,7 @@ Connection ~ 1300 2900
 Wire Notes Line
 	2250 4800 2250 3000
 Text Notes 1050 5400 0    60   ~ 0
-"XADC" style\n - Found in groups on Numato boards.\n - Many Digilent boards have a single port in this style.\n\nThese headers are space 0.2 inches apart
+"XADC" style\n - Found in groups on Numato boards.\n - Many Digilent boards have a single port in this style.\n\nThese headers are spaced;\n * 0.2145 inches - Edge to Edge\n * 0.3145 inches - Pin to Pin
 Text Notes 2250 4800 1    30   ~ 0
 Breakable on this line
 $Comp
@@ -367,7 +367,7 @@ Wire Notes Line
 Text Notes 3750 4800 1    30   ~ 0
 Breakable on this line
 Text Notes 1050 2200 0    60   ~ 0
-"HS" style\n - Many Digilent boards have multiple ports in this style.\n\nThese headers are space 0.3 inches apart
+"HS" style\n - Many Digilent boards have multiple ports in this style.\n\nThese headers are spaced;\n * 0.3 inches - Edge to Edge
 $Comp
 L PMOD-Device-x2-Type-XADC PX4
 U 1 1 582AF53A
