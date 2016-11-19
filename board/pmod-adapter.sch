@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:pmod
+LIBS:pmod-adapter-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -49,7 +50,7 @@ U 1 1 582AE34D
 P 1450 4300
 F 0 "PX1" H 1320 4250 50  0000 C CNN
 F 1 "PMOD-Device-x2-Type-XADC" V 1090 3590 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2" V 1000 3590 60  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_xadc" V 1000 3590 60  0001 L CNN
 F 3 "" H 1400 4600 60  0000 C CNN
 	1    1450 4300
 	0    -1   -1   0   
@@ -60,7 +61,7 @@ U 1 1 582AE418
 P 1450 2650
 F 0 "PH1" H 1320 2600 50  0000 C CNN
 F 1 "PMOD-Device-x2-Type-XHS" V 1090 1940 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2" V 1000 1940 60  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_hs" V 1000 1940 60  0001 L CNN
 F 3 "" H 1400 2950 60  0000 C CNN
 	1    1450 2650
 	0    -1   1    0   
@@ -130,7 +131,7 @@ J13_P
 Text Label 1200 4100 1    60   ~ 0
 J14_P
 Text Label 1300 4100 1    60   ~ 0
-GND
+GND1
 Text Label 1400 4100 1    60   ~ 0
 VCC11
 Text Label 1600 4100 1    60   ~ 0
@@ -142,7 +143,7 @@ J13_N
 Text Label 1900 4100 1    60   ~ 0
 J14_N
 Text Label 2000 4100 1    60   ~ 0
-GND
+GND1
 Text Label 2100 4100 1    60   ~ 0
 VCC12
 $Comp
@@ -151,7 +152,7 @@ U 1 1 582AE739
 P 2950 4300
 F 0 "PX2" H 2820 4250 50  0000 C CNN
 F 1 "PMOD-Device-x2-Type-XADC" V 2590 3590 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2" V 2500 3590 60  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_xadc" V 2500 3590 60  0001 L CNN
 F 3 "" H 2900 4600 60  0000 C CNN
 	1    2950 4300
 	0    -1   -1   0   
@@ -162,7 +163,7 @@ U 1 1 582AE73F
 P 2950 2650
 F 0 "PH2" H 2820 2600 50  0000 C CNN
 F 1 "PMOD-Device-x2-Type-XHS" V 2590 1940 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2" V 2500 1940 60  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_hs" V 2500 1940 60  0001 L CNN
 F 3 "" H 2900 2950 60  0000 C CNN
 	1    2950 2650
 	0    -1   1    0   
@@ -232,7 +233,7 @@ J23_P
 Text Label 2700 4100 1    60   ~ 0
 J24_P
 Text Label 2800 4100 1    60   ~ 0
-GND
+GND2
 Text Label 2900 4100 1    60   ~ 0
 VCC21
 Text Label 3100 4100 1    60   ~ 0
@@ -244,7 +245,7 @@ J23_N
 Text Label 3400 4100 1    60   ~ 0
 J24_N
 Text Label 3500 4100 1    60   ~ 0
-GND
+GND2
 Text Label 3600 4100 1    60   ~ 0
 VCC22
 Connection ~ 2800 2900
@@ -263,7 +264,7 @@ U 1 1 582AF0EE
 P 4450 4300
 F 0 "PX3" H 4320 4250 50  0000 C CNN
 F 1 "PMOD-Device-x2-Type-XADC" V 4090 3590 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2" V 4000 3590 60  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_xadc" V 4000 3590 60  0001 L CNN
 F 3 "" H 4400 4600 60  0000 C CNN
 	1    4450 4300
 	0    -1   -1   0   
@@ -274,7 +275,7 @@ U 1 1 582AF0F4
 P 4450 2650
 F 0 "PH3" H 4320 2600 50  0000 C CNN
 F 1 "PMOD-Device-x2-Type-XHS" V 4090 1940 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2" V 4000 1940 60  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_hs" V 4000 1940 60  0001 L CNN
 F 3 "" H 4400 2950 60  0000 C CNN
 	1    4450 2650
 	0    -1   1    0   
@@ -344,7 +345,7 @@ J33_P
 Text Label 4200 4100 1    60   ~ 0
 J34_P
 Text Label 4300 4100 1    60   ~ 0
-GND
+GND3
 Text Label 4400 4100 1    60   ~ 0
 VCC31
 Text Label 4600 4100 1    60   ~ 0
@@ -356,7 +357,7 @@ J33_N
 Text Label 4900 4100 1    60   ~ 0
 J34_N
 Text Label 5000 4100 1    60   ~ 0
-GND
+GND3
 Text Label 5100 4100 1    60   ~ 0
 VCC32
 Connection ~ 4300 2900
@@ -373,7 +374,7 @@ U 1 1 582AF53A
 P 5950 4300
 F 0 "PX4" H 5820 4250 50  0000 C CNN
 F 1 "PMOD-Device-x2-Type-XADC" V 5590 3590 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2" V 5500 3590 60  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_xadc" V 5500 3590 60  0001 L CNN
 F 3 "" H 5900 4600 60  0000 C CNN
 	1    5950 4300
 	0    -1   -1   0   
@@ -384,7 +385,7 @@ U 1 1 582AF540
 P 5950 2650
 F 0 "PH4" H 5820 2600 50  0000 C CNN
 F 1 "PMOD-Device-x2-Type-XHS" V 5590 1940 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2" V 5500 1940 60  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_hs" V 5500 1940 60  0001 L CNN
 F 3 "" H 5900 2950 60  0000 C CNN
 	1    5950 2650
 	0    -1   1    0   
@@ -454,9 +455,9 @@ J43_P
 Text Label 5700 4100 1    60   ~ 0
 J44_P
 Text Label 5800 4100 1    60   ~ 0
-GND
+GND3
 Text Label 5900 4100 1    60   ~ 0
-VCC31
+VCC41
 Text Label 6100 4100 1    60   ~ 0
 J41_N
 Text Label 6200 4100 1    60   ~ 0
@@ -466,15 +467,11 @@ J43_N
 Text Label 6400 4100 1    60   ~ 0
 J44_N
 Text Label 6500 4100 1    60   ~ 0
-GND
+GND3
 Text Label 6600 4100 1    60   ~ 0
-VCC32
+VCC42
 Connection ~ 5800 2900
 Connection ~ 6500 2900
-Wire Notes Line
-	5250 4800 5250 3000
-Text Notes 5250 4800 1    30   ~ 0
-Breakable on this line
 Wire Wire Line
 	2250 2900 1300 2900
 Wire Wire Line
@@ -488,15 +485,9 @@ Wire Wire Line
 Text Label 3750 2625 1    60   ~ 0
 GND2
 Wire Wire Line
-	5250 2900 4300 2900
+	4300 2900 6750 2900
 Wire Wire Line
-	5250 2625 5250 2900
-Text Label 5250 2625 1    60   ~ 0
-GND3
-Wire Wire Line
-	6750 2900 5800 2900
-Wire Wire Line
-	6750 2625 6750 2900
+	6750 2900 6750 2625
 Text Label 6750 2625 1    60   ~ 0
-GND4
+GND3
 $EndSCHEMATC
