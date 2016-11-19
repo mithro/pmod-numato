@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:pmod
-LIBS:pmod-adapter-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -87,11 +86,11 @@ Wire Wire Line
 Wire Wire Line
 	1800 3450 1800 2800
 Wire Wire Line
-	1300 4150 1300 2800
+	1300 2800 1300 4150
 Wire Wire Line
 	1400 2800 1400 4150
 Wire Wire Line
-	2000 4150 2000 2800
+	2000 2800 2000 4150
 Wire Wire Line
 	2100 2800 2100 4150
 Wire Wire Line
@@ -189,11 +188,11 @@ Wire Wire Line
 Wire Wire Line
 	3300 3450 3300 2800
 Wire Wire Line
-	2800 4150 2800 2800
+	2800 2800 2800 4150
 Wire Wire Line
 	2900 2800 2900 4150
 Wire Wire Line
-	3500 4150 3500 2800
+	3500 2800 3500 4150
 Wire Wire Line
 	3600 2800 3600 4150
 Wire Wire Line
@@ -248,26 +247,10 @@ Text Label 3500 4100 1    60   ~ 0
 GND
 Text Label 3600 4100 1    60   ~ 0
 VCC22
-Wire Wire Line
-	1300 2900 6500 2900
 Connection ~ 2800 2900
 Connection ~ 3500 2900
 Connection ~ 2000 2900
 Connection ~ 1300 2900
-Wire Wire Line
-	2250 2900 2250 2850
-Connection ~ 2250 2900
-$Comp
-L GND #PWR?
-U 1 1 582AEA44
-P 2250 2850
-F 0 "#PWR?" H 2250 2600 50  0001 C CNN
-F 1 "GND" H 2250 2700 50  0000 C CNN
-F 2 "" H 2250 2850 50  0000 C CNN
-F 3 "" H 2250 2850 50  0000 C CNN
-	1    2250 2850
-	-1   0    0    1   
-$EndComp
 Wire Notes Line
 	2250 4800 2250 3000
 Text Notes 1050 5400 0    60   ~ 0
@@ -317,11 +300,11 @@ Wire Wire Line
 Wire Wire Line
 	4800 3450 4800 2800
 Wire Wire Line
-	4300 4150 4300 2800
+	4300 2800 4300 4150
 Wire Wire Line
 	4400 2800 4400 4150
 Wire Wire Line
-	5000 4150 5000 2800
+	5000 2800 5000 4150
 Wire Wire Line
 	5100 2800 5100 4150
 Wire Wire Line
@@ -378,20 +361,6 @@ Text Label 5100 4100 1    60   ~ 0
 VCC32
 Connection ~ 4300 2900
 Connection ~ 5000 2900
-Wire Wire Line
-	3750 2900 3750 2850
-Connection ~ 3750 2900
-$Comp
-L GND #PWR?
-U 1 1 582AF127
-P 3750 2850
-F 0 "#PWR?" H 3750 2600 50  0001 C CNN
-F 1 "GND" H 3750 2700 50  0000 C CNN
-F 2 "" H 3750 2850 50  0000 C CNN
-F 3 "" H 3750 2850 50  0000 C CNN
-	1    3750 2850
-	-1   0    0    1   
-$EndComp
 Wire Notes Line
 	3750 4800 3750 3000
 Text Notes 3750 4800 1    30   ~ 0
@@ -441,11 +410,11 @@ Wire Wire Line
 Wire Wire Line
 	6300 3450 6300 2800
 Wire Wire Line
-	5800 4150 5800 2800
+	5800 2800 5800 4150
 Wire Wire Line
 	5900 2800 5900 4150
 Wire Wire Line
-	6500 4150 6500 2800
+	6500 2800 6500 4150
 Wire Wire Line
 	6600 2800 6600 4150
 Wire Wire Line
@@ -502,22 +471,32 @@ Text Label 6600 4100 1    60   ~ 0
 VCC32
 Connection ~ 5800 2900
 Connection ~ 6500 2900
-Wire Wire Line
-	5250 2900 5250 2850
-Connection ~ 5250 2900
-$Comp
-L GND #PWR?
-U 1 1 582AF572
-P 5250 2850
-F 0 "#PWR?" H 5250 2600 50  0001 C CNN
-F 1 "GND" H 5250 2700 50  0000 C CNN
-F 2 "" H 5250 2850 50  0000 C CNN
-F 3 "" H 5250 2850 50  0000 C CNN
-	1    5250 2850
-	-1   0    0    1   
-$EndComp
 Wire Notes Line
 	5250 4800 5250 3000
 Text Notes 5250 4800 1    30   ~ 0
 Breakable on this line
+Wire Wire Line
+	2250 2900 1300 2900
+Wire Wire Line
+	2250 2625 2250 2900
+Text Label 2250 2625 1    60   ~ 0
+GND1
+Wire Wire Line
+	3750 2900 2800 2900
+Wire Wire Line
+	3750 2625 3750 2900
+Text Label 3750 2625 1    60   ~ 0
+GND2
+Wire Wire Line
+	5250 2900 4300 2900
+Wire Wire Line
+	5250 2625 5250 2900
+Text Label 5250 2625 1    60   ~ 0
+GND3
+Wire Wire Line
+	6750 2900 5800 2900
+Wire Wire Line
+	6750 2625 6750 2900
+Text Label 6750 2625 1    60   ~ 0
+GND4
 $EndSCHEMATC
