@@ -2,8 +2,12 @@
 
 This adapter is useful for the following;
 
- * From from Numato's 0.2inch spacing to Digilent's 0.3 inch spacing.
- * Adapting the "XADC" style to the "HS" style. See [my high speed Pmod sheet for details](https://docs.google.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1WEORo1LAIt92hk1bZGEoo/edit#gid=725118408).
+ * Adapting the "XADC" style to the "HS" style.
+    - See [my high speed Pmod sheet for details](https://docs.google.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1WEORo1LAIt92hk1bZGEoo/edit#gid=725118408).
+
+ * From from Numato's spacing (0.3145 inch, pin to pin) to
+   Digilent's spacing (0.3 inch, edge to edge).
+
 
 ## License
 
