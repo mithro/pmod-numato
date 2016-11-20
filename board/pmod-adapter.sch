@@ -47,447 +47,501 @@ $EndDescr
 $Comp
 L PMOD-Device-x2-Type-XADC PX1
 U 1 1 582AE34D
-P 1450 4300
-F 0 "PX1" H 1320 4250 50  0000 C CNN
-F 1 "PMOD-Device-x2-Type-XADC" V 1090 3590 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2_xadc" V 1000 3590 60  0001 L CNN
-F 3 "" H 1400 4600 60  0000 C CNN
-	1    1450 4300
-	0    -1   -1   0   
+P 4875 1225
+F 0 "PX1" H 4745 1175 50  0000 C CNN
+F 1 "PMOD-Device-x2-Type-XADC" V 4515 515 50  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_xadc" V 4425 515 60  0001 L CNN
+F 3 "" H 4825 1525 60  0000 C CNN
+	1    4875 1225
+	1    0    0    -1  
 $EndComp
 $Comp
 L PMOD-Device-x2-Type-XHS PH1
 U 1 1 582AE418
-P 1450 2650
-F 0 "PH1" H 1320 2600 50  0000 C CNN
-F 1 "PMOD-Device-x2-Type-XHS" V 1090 1940 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2_hs" V 1000 1940 60  0001 L CNN
-F 3 "" H 1400 2950 60  0000 C CNN
-	1    1450 2650
-	0    -1   1    0   
+P 7125 1225
+F 0 "PH1" H 6995 1175 50  0000 C CNN
+F 1 "PMOD-Device-x2-Type-XHS" V 6765 515 50  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_hs" V 6675 515 60  0001 L CNN
+F 3 "" H 7075 1525 60  0000 C CNN
+	1    7125 1225
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	900  4150 900  2800
-Wire Wire Line
-	1000 4150 1000 3250
-Wire Wire Line
-	1000 3250 1100 3250
-Wire Wire Line
-	1100 3250 1100 2800
-Wire Wire Line
-	1100 4150 1100 3350
-Wire Wire Line
-	1100 3350 1600 3350
-Wire Wire Line
-	1600 3350 1600 2800
-Wire Wire Line
-	1200 4150 1200 3450
-Wire Wire Line
-	1200 3450 1800 3450
-Wire Wire Line
-	1800 3450 1800 2800
-Wire Wire Line
-	1300 2800 1300 4150
-Wire Wire Line
-	1400 2800 1400 4150
-Wire Wire Line
-	2000 2800 2000 4150
-Wire Wire Line
-	2100 2800 2100 4150
-Wire Wire Line
-	1900 2800 1900 4150
-Wire Wire Line
-	1700 2800 1700 3600
-Wire Wire Line
-	1700 3600 1800 3600
-Wire Wire Line
-	1800 3600 1800 4150
-Wire Wire Line
-	1200 2800 1200 3050
-Wire Wire Line
-	1200 3050 1550 3050
-Wire Wire Line
-	1550 3050 1550 3700
-Wire Wire Line
-	1550 3700 1700 3700
-Wire Wire Line
-	1700 3700 1700 4150
-Wire Wire Line
-	1600 4150 1600 3800
-Wire Wire Line
-	1600 3800 1450 3800
-Wire Wire Line
-	1450 3800 1450 3150
-Wire Wire Line
-	1450 3150 1000 3150
-Wire Wire Line
-	1000 3150 1000 2800
-Text Label 900  4100 1    60   ~ 0
-J11_P
-Text Label 1000 4100 1    60   ~ 0
-J12_P
-Text Label 1100 4100 1    60   ~ 0
-J13_P
-Text Label 1200 4100 1    60   ~ 0
-J14_P
-Text Label 1300 4100 1    60   ~ 0
+Text Label 5325 675  2    60   ~ 0
+J1A_P
+Text Label 5325 775  2    60   ~ 0
+J1B_P
+Text Label 5325 875  2    60   ~ 0
+J1C_P
+Text Label 5325 975  2    60   ~ 0
+J1D_P
+Text Label 5325 1075 2    60   ~ 0
 GND1
-Text Label 1400 4100 1    60   ~ 0
+Text Label 5325 1175 2    60   ~ 0
 VCC11
-Text Label 1600 4100 1    60   ~ 0
-J11_N
-Text Label 1700 4100 1    60   ~ 0
-J12_N
-Text Label 1800 4100 1    60   ~ 0
-J13_N
-Text Label 1900 4100 1    60   ~ 0
-J14_N
-Text Label 2000 4100 1    60   ~ 0
+Text Label 5325 1375 2    60   ~ 0
+J1A_N
+Text Label 5325 1475 2    60   ~ 0
+J1B_N
+Text Label 5325 1575 2    60   ~ 0
+J1C_N
+Text Label 5325 1675 2    60   ~ 0
+J1D_N
+Text Label 5325 1775 2    60   ~ 0
 GND1
-Text Label 2100 4100 1    60   ~ 0
-VCC12
 $Comp
 L PMOD-Device-x2-Type-XADC PX2
 U 1 1 582AE739
-P 2950 4300
-F 0 "PX2" H 2820 4250 50  0000 C CNN
-F 1 "PMOD-Device-x2-Type-XADC" V 2590 3590 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2_xadc" V 2500 3590 60  0001 L CNN
-F 3 "" H 2900 4600 60  0000 C CNN
-	1    2950 4300
-	0    -1   -1   0   
+P 4875 2725
+F 0 "PX2" H 4745 2675 50  0000 C CNN
+F 1 "PMOD-Device-x2-Type-XADC" V 4515 2015 50  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_xadc" V 4425 2015 60  0001 L CNN
+F 3 "" H 4825 3025 60  0000 C CNN
+	1    4875 2725
+	1    0    0    -1  
 $EndComp
 $Comp
 L PMOD-Device-x2-Type-XHS PH2
 U 1 1 582AE73F
-P 2950 2650
-F 0 "PH2" H 2820 2600 50  0000 C CNN
-F 1 "PMOD-Device-x2-Type-XHS" V 2590 1940 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2_hs" V 2500 1940 60  0001 L CNN
-F 3 "" H 2900 2950 60  0000 C CNN
-	1    2950 2650
-	0    -1   1    0   
+P 7125 2725
+F 0 "PH2" H 6995 2675 50  0000 C CNN
+F 1 "PMOD-Device-x2-Type-XHS" V 6765 2015 50  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_hs" V 6675 2015 60  0001 L CNN
+F 3 "" H 7075 3025 60  0000 C CNN
+	1    7125 2725
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	2400 4150 2400 2800
-Wire Wire Line
-	2500 4150 2500 3250
-Wire Wire Line
-	2500 3250 2600 3250
-Wire Wire Line
-	2600 3250 2600 2800
-Wire Wire Line
-	2600 4150 2600 3350
-Wire Wire Line
-	2600 3350 3100 3350
-Wire Wire Line
-	3100 3350 3100 2800
-Wire Wire Line
-	2700 4150 2700 3450
-Wire Wire Line
-	2700 3450 3300 3450
-Wire Wire Line
-	3300 3450 3300 2800
-Wire Wire Line
-	2800 2800 2800 4150
-Wire Wire Line
-	2900 2800 2900 4150
-Wire Wire Line
-	3500 2800 3500 4150
-Wire Wire Line
-	3600 2800 3600 4150
-Wire Wire Line
-	3400 2800 3400 4150
-Wire Wire Line
-	3200 2800 3200 3600
-Wire Wire Line
-	3200 3600 3300 3600
-Wire Wire Line
-	3300 3600 3300 4150
-Wire Wire Line
-	2700 2800 2700 3050
-Wire Wire Line
-	2700 3050 3050 3050
-Wire Wire Line
-	3050 3050 3050 3700
-Wire Wire Line
-	3050 3700 3200 3700
-Wire Wire Line
-	3200 3700 3200 4150
-Wire Wire Line
-	3100 4150 3100 3800
-Wire Wire Line
-	3100 3800 2950 3800
-Wire Wire Line
-	2950 3800 2950 3150
-Wire Wire Line
-	2950 3150 2500 3150
-Wire Wire Line
-	2500 3150 2500 2800
-Text Label 2400 4100 1    60   ~ 0
-J21_P
-Text Label 2500 4100 1    60   ~ 0
-J22_P
-Text Label 2600 4100 1    60   ~ 0
-J23_P
-Text Label 2700 4100 1    60   ~ 0
-J24_P
-Text Label 2800 4100 1    60   ~ 0
-GND2
-Text Label 2900 4100 1    60   ~ 0
-VCC21
-Text Label 3100 4100 1    60   ~ 0
-J21_N
-Text Label 3200 4100 1    60   ~ 0
-J22_N
-Text Label 3300 4100 1    60   ~ 0
-J23_N
-Text Label 3400 4100 1    60   ~ 0
-J24_N
-Text Label 3500 4100 1    60   ~ 0
-GND2
-Text Label 3600 4100 1    60   ~ 0
-VCC22
-Connection ~ 2800 2900
-Connection ~ 3500 2900
-Connection ~ 2000 2900
-Connection ~ 1300 2900
 Wire Notes Line
-	2250 4800 2250 3000
-Text Notes 1050 5400 0    60   ~ 0
+	4625 2025 7375 2025
+Text Notes 1525 2000 0    60   ~ 0
 "XADC" style\n - Found in groups on Numato boards.\n - Many Digilent boards have a single port in this style.\n\nThese headers are spaced;\n * 0.2145 inches - Edge to Edge\n * 0.3145 inches - Pin to Pin
-Text Notes 2250 4800 1    30   ~ 0
+Text Notes 5850 2025 0    30   ~ 0
 Breakable on this line
 $Comp
 L PMOD-Device-x2-Type-XADC PX3
 U 1 1 582AF0EE
-P 4450 4300
-F 0 "PX3" H 4320 4250 50  0000 C CNN
-F 1 "PMOD-Device-x2-Type-XADC" V 4090 3590 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2_xadc" V 4000 3590 60  0001 L CNN
-F 3 "" H 4400 4600 60  0000 C CNN
-	1    4450 4300
-	0    -1   -1   0   
+P 4875 4225
+F 0 "PX3" H 4745 4175 50  0000 C CNN
+F 1 "PMOD-Device-x2-Type-XADC" V 4515 3515 50  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_xadc" V 4425 3515 60  0001 L CNN
+F 3 "" H 4825 4525 60  0000 C CNN
+	1    4875 4225
+	1    0    0    -1  
 $EndComp
 $Comp
 L PMOD-Device-x2-Type-XHS PH3
 U 1 1 582AF0F4
-P 4450 2650
-F 0 "PH3" H 4320 2600 50  0000 C CNN
-F 1 "PMOD-Device-x2-Type-XHS" V 4090 1940 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2_hs" V 4000 1940 60  0001 L CNN
-F 3 "" H 4400 2950 60  0000 C CNN
-	1    4450 2650
-	0    -1   1    0   
+P 7125 4225
+F 0 "PH3" H 6995 4175 50  0000 C CNN
+F 1 "PMOD-Device-x2-Type-XHS" V 6765 3515 50  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_hs" V 6675 3515 60  0001 L CNN
+F 3 "" H 7075 4525 60  0000 C CNN
+	1    7125 4225
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 4150 3900 2800
-Wire Wire Line
-	4000 4150 4000 3250
-Wire Wire Line
-	4000 3250 4100 3250
-Wire Wire Line
-	4100 3250 4100 2800
-Wire Wire Line
-	4100 4150 4100 3350
-Wire Wire Line
-	4100 3350 4600 3350
-Wire Wire Line
-	4600 3350 4600 2800
-Wire Wire Line
-	4200 4150 4200 3450
-Wire Wire Line
-	4200 3450 4800 3450
-Wire Wire Line
-	4800 3450 4800 2800
-Wire Wire Line
-	4300 2800 4300 4150
-Wire Wire Line
-	4400 2800 4400 4150
-Wire Wire Line
-	5000 2800 5000 4150
-Wire Wire Line
-	5100 2800 5100 4150
-Wire Wire Line
-	4900 2800 4900 4150
-Wire Wire Line
-	4700 2800 4700 3600
-Wire Wire Line
-	4700 3600 4800 3600
-Wire Wire Line
-	4800 3600 4800 4150
-Wire Wire Line
-	4200 2800 4200 3050
-Wire Wire Line
-	4200 3050 4550 3050
-Wire Wire Line
-	4550 3050 4550 3700
-Wire Wire Line
-	4550 3700 4700 3700
-Wire Wire Line
-	4700 3700 4700 4150
-Wire Wire Line
-	4600 4150 4600 3800
-Wire Wire Line
-	4600 3800 4450 3800
-Wire Wire Line
-	4450 3800 4450 3150
-Wire Wire Line
-	4450 3150 4000 3150
-Wire Wire Line
-	4000 3150 4000 2800
-Text Label 3900 4100 1    60   ~ 0
-J31_P
-Text Label 4000 4100 1    60   ~ 0
-J32_P
-Text Label 4100 4100 1    60   ~ 0
-J33_P
-Text Label 4200 4100 1    60   ~ 0
-J34_P
-Text Label 4300 4100 1    60   ~ 0
-GND3
-Text Label 4400 4100 1    60   ~ 0
-VCC31
-Text Label 4600 4100 1    60   ~ 0
-J31_N
-Text Label 4700 4100 1    60   ~ 0
-J32_N
-Text Label 4800 4100 1    60   ~ 0
-J33_N
-Text Label 4900 4100 1    60   ~ 0
-J34_N
-Text Label 5000 4100 1    60   ~ 0
-GND3
-Text Label 5100 4100 1    60   ~ 0
-VCC32
-Connection ~ 4300 2900
-Connection ~ 5000 2900
-Wire Notes Line
-	3750 4800 3750 3000
-Text Notes 3750 4800 1    30   ~ 0
-Breakable on this line
-Text Notes 1050 2200 0    60   ~ 0
+Text Notes 7675 1800 0    60   ~ 0
 "HS" style\n - Many Digilent boards have multiple ports in this style.\n\nThese headers are spaced;\n * 0.3 inches - Edge to Edge
 $Comp
 L PMOD-Device-x2-Type-XADC PX4
 U 1 1 582AF53A
-P 5950 4300
-F 0 "PX4" H 5820 4250 50  0000 C CNN
-F 1 "PMOD-Device-x2-Type-XADC" V 5590 3590 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2_xadc" V 5500 3590 60  0001 L CNN
-F 3 "" H 5900 4600 60  0000 C CNN
-	1    5950 4300
-	0    -1   -1   0   
+P 4875 5725
+F 0 "PX4" H 4745 5675 50  0000 C CNN
+F 1 "PMOD-Device-x2-Type-XADC" V 4515 5015 50  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_xadc" V 4425 5015 60  0001 L CNN
+F 3 "" H 4825 6025 60  0000 C CNN
+	1    4875 5725
+	1    0    0    -1  
 $EndComp
 $Comp
 L PMOD-Device-x2-Type-XHS PH4
 U 1 1 582AF540
-P 5950 2650
-F 0 "PH4" H 5820 2600 50  0000 C CNN
-F 1 "PMOD-Device-x2-Type-XHS" V 5590 1940 50  0001 L CNN
-F 2 "pmod-conn_6x2:pmod_pin_array_6x2_hs" V 5500 1940 60  0001 L CNN
-F 3 "" H 5900 2950 60  0000 C CNN
-	1    5950 2650
-	0    -1   1    0   
+P 7125 5725
+F 0 "PH4" H 6995 5675 50  0000 C CNN
+F 1 "PMOD-Device-x2-Type-XHS" V 6765 5015 50  0001 L CNN
+F 2 "pmod-conn_6x2:pmod_pin_array_6x2_hs" V 6675 5015 60  0001 L CNN
+F 3 "" H 7075 6025 60  0000 C CNN
+	1    7125 5725
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5400 4150 5400 2800
-Wire Wire Line
-	5500 4150 5500 3250
-Wire Wire Line
-	5500 3250 5600 3250
-Wire Wire Line
-	5600 3250 5600 2800
-Wire Wire Line
-	5600 4150 5600 3350
-Wire Wire Line
-	5600 3350 6100 3350
-Wire Wire Line
-	6100 3350 6100 2800
-Wire Wire Line
-	5700 4150 5700 3450
-Wire Wire Line
-	5700 3450 6300 3450
-Wire Wire Line
-	6300 3450 6300 2800
-Wire Wire Line
-	5800 2800 5800 4150
-Wire Wire Line
-	5900 2800 5900 4150
-Wire Wire Line
-	6500 2800 6500 4150
-Wire Wire Line
-	6600 2800 6600 4150
-Wire Wire Line
-	6400 2800 6400 4150
-Wire Wire Line
-	6200 2800 6200 3600
-Wire Wire Line
-	6200 3600 6300 3600
-Wire Wire Line
-	6300 3600 6300 4150
-Wire Wire Line
-	5700 2800 5700 3050
-Wire Wire Line
-	5700 3050 6050 3050
-Wire Wire Line
-	6050 3050 6050 3700
-Wire Wire Line
-	6050 3700 6200 3700
-Wire Wire Line
-	6200 3700 6200 4150
-Wire Wire Line
-	6100 4150 6100 3800
-Wire Wire Line
-	6100 3800 5950 3800
-Wire Wire Line
-	5950 3800 5950 3150
-Wire Wire Line
-	5950 3150 5500 3150
-Wire Wire Line
-	5500 3150 5500 2800
-Text Label 5400 4100 1    60   ~ 0
-J41_P
-Text Label 5500 4100 1    60   ~ 0
-J42_P
-Text Label 5600 4100 1    60   ~ 0
-J43_P
-Text Label 5700 4100 1    60   ~ 0
-J44_P
-Text Label 5800 4100 1    60   ~ 0
-GND3
-Text Label 5900 4100 1    60   ~ 0
-VCC41
-Text Label 6100 4100 1    60   ~ 0
-J41_N
-Text Label 6200 4100 1    60   ~ 0
-J42_N
-Text Label 6300 4100 1    60   ~ 0
-J43_N
-Text Label 6400 4100 1    60   ~ 0
-J44_N
-Text Label 6500 4100 1    60   ~ 0
-GND3
-Text Label 6600 4100 1    60   ~ 0
-VCC42
-Connection ~ 5800 2900
-Connection ~ 6500 2900
-Wire Wire Line
-	2250 2900 1300 2900
-Wire Wire Line
-	2250 2625 2250 2900
-Text Label 2250 2625 1    60   ~ 0
+Text Label 6675 1775 0    60   ~ 0
 GND1
+Text Notes 5450 1425 0    60   ~ 0
+XADC 1 <- A -> HS 3\nXADC 2 <- B -> HS 1\nXADC 3 <- C -> HS 4\nXADC 4 <- D -> HS 2
 Wire Wire Line
-	3750 2900 2800 2900
+	5325 675  5025 675 
 Wire Wire Line
-	3750 2625 3750 2900
-Text Label 3750 2625 1    60   ~ 0
+	5325 775  5025 775 
+Wire Wire Line
+	5325 875  5025 875 
+Wire Wire Line
+	5325 975  5025 975 
+Wire Wire Line
+	5025 1375 5325 1375
+Wire Wire Line
+	5325 1475 5025 1475
+Wire Wire Line
+	5025 1575 5325 1575
+Wire Wire Line
+	5025 1675 5325 1675
+Text Label 6675 1375 0    60   ~ 0
+J1A_P
+Text Label 6675 675  0    60   ~ 0
+J1B_P
+Text Label 6675 1575 0    60   ~ 0
+J1C_P
+Text Label 6675 875  0    60   ~ 0
+J1D_P
+Wire Wire Line
+	6675 1375 6975 1375
+Wire Wire Line
+	6675 675  6975 675 
+Wire Wire Line
+	6675 1575 6975 1575
+Wire Wire Line
+	6675 875  6975 875 
+Text Label 6675 1475 0    60   ~ 0
+J1A_N
+Text Label 6675 775  0    60   ~ 0
+J1B_N
+Text Label 6675 1675 0    60   ~ 0
+J1C_N
+Text Label 6675 975  0    60   ~ 0
+J1D_N
+Wire Wire Line
+	6975 1475 6675 1475
+Wire Wire Line
+	6675 775  6975 775 
+Wire Wire Line
+	6975 1675 6675 1675
+Wire Wire Line
+	6975 975  6675 975 
+Wire Wire Line
+	5325 1075 5025 1075
+Wire Wire Line
+	5025 1175 5325 1175
+Text Label 6675 1075 0    60   ~ 0
+GND1
+Text Label 6675 1175 0    60   ~ 0
+VCC11
+Wire Wire Line
+	6675 1075 6975 1075
+Wire Wire Line
+	6975 1175 6675 1175
+Wire Wire Line
+	5025 1775 5325 1775
+Wire Wire Line
+	6675 1775 6975 1775
+Wire Wire Line
+	5025 1875 5325 1875
+Text Label 5325 1875 2    60   ~ 0
+VCC12
+Wire Wire Line
+	6975 1875 6675 1875
+Text Label 6675 1875 0    60   ~ 0
+VCC12
+Text Notes 900  6850 0    60   ~ 0
+HS1 <- B -> XADC 2\nHS2 <- D -> XADC 4\nHS3 <- A -> XADC 1\nHS4 <- C -> XADC 3\n
+Text Label 5325 2175 2    60   ~ 0
+J2A_P
+Text Label 5325 2275 2    60   ~ 0
+J2B_P
+Text Label 5325 2375 2    60   ~ 0
+J2C_P
+Text Label 5325 2475 2    60   ~ 0
+J2D_P
+Text Label 5325 2575 2    60   ~ 0
 GND2
+Text Label 5325 2675 2    60   ~ 0
+VCC21
+Text Label 5325 2875 2    60   ~ 0
+J2A_N
+Text Label 5325 2975 2    60   ~ 0
+J2B_N
+Text Label 5325 3075 2    60   ~ 0
+J2C_N
+Text Label 5325 3175 2    60   ~ 0
+J2D_N
+Text Label 5325 3275 2    60   ~ 0
+GND2
+Text Label 6675 3275 0    60   ~ 0
+GND2
+Text Notes 5450 2925 0    60   ~ 0
+XADC 1 <- A -> HS 3\nXADC 2 <- B -> HS 1\nXADC 3 <- C -> HS 4\nXADC 4 <- D -> HS 2
 Wire Wire Line
-	4300 2900 6750 2900
+	5325 2175 5025 2175
 Wire Wire Line
-	6750 2900 6750 2625
-Text Label 6750 2625 1    60   ~ 0
-GND3
+	5325 2275 5025 2275
+Wire Wire Line
+	5325 2375 5025 2375
+Wire Wire Line
+	5325 2475 5025 2475
+Wire Wire Line
+	5025 2875 5325 2875
+Wire Wire Line
+	5325 2975 5025 2975
+Wire Wire Line
+	5025 3075 5325 3075
+Wire Wire Line
+	5025 3175 5325 3175
+Text Label 6675 2875 0    60   ~ 0
+J2A_P
+Text Label 6675 2175 0    60   ~ 0
+J2B_P
+Text Label 6675 3075 0    60   ~ 0
+J2C_P
+Text Label 6675 2375 0    60   ~ 0
+J2D_P
+Wire Wire Line
+	6675 2875 6975 2875
+Wire Wire Line
+	6675 2175 6975 2175
+Wire Wire Line
+	6675 3075 6975 3075
+Wire Wire Line
+	6675 2375 6975 2375
+Text Label 6675 2975 0    60   ~ 0
+J2A_N
+Text Label 6675 2275 0    60   ~ 0
+J2B_N
+Text Label 6675 3175 0    60   ~ 0
+J2C_N
+Text Label 6675 2475 0    60   ~ 0
+J2D_N
+Wire Wire Line
+	6975 2975 6675 2975
+Wire Wire Line
+	6675 2275 6975 2275
+Wire Wire Line
+	6975 3175 6675 3175
+Wire Wire Line
+	6975 2475 6675 2475
+Wire Wire Line
+	5325 2575 5025 2575
+Wire Wire Line
+	5025 2675 5325 2675
+Text Label 6675 2575 0    60   ~ 0
+GND2
+Text Label 6675 2675 0    60   ~ 0
+VCC21
+Wire Wire Line
+	6675 2575 6975 2575
+Wire Wire Line
+	6975 2675 6675 2675
+Wire Wire Line
+	5025 3275 5325 3275
+Wire Wire Line
+	6675 3275 6975 3275
+Wire Wire Line
+	5025 3375 5325 3375
+Text Label 5325 3375 2    60   ~ 0
+VCC22
+Wire Wire Line
+	6975 3375 6675 3375
+Text Label 6675 3375 0    60   ~ 0
+VCC22
+Text Label 5325 3675 2    60   ~ 0
+J3A_P
+Text Label 5325 3775 2    60   ~ 0
+J3B_P
+Text Label 5325 3875 2    60   ~ 0
+J3C_P
+Text Label 5325 3975 2    60   ~ 0
+J3D_P
+Text Label 5325 4075 2    60   ~ 0
+GND34
+Text Label 5325 4175 2    60   ~ 0
+VCC31
+Text Label 5325 4375 2    60   ~ 0
+J3A_N
+Text Label 5325 4475 2    60   ~ 0
+J3B_N
+Text Label 5325 4575 2    60   ~ 0
+J3C_N
+Text Label 5325 4675 2    60   ~ 0
+J3D_N
+Text Label 5325 4775 2    60   ~ 0
+GND34
+Text Label 6675 4775 0    60   ~ 0
+GND34
+Text Notes 5450 4425 0    60   ~ 0
+XADC 1 <- A -> HS 3\nXADC 2 <- B -> HS 1\nXADC 3 <- C -> HS 4\nXADC 4 <- D -> HS 2
+Wire Wire Line
+	5325 3675 5025 3675
+Wire Wire Line
+	5325 3775 5025 3775
+Wire Wire Line
+	5325 3875 5025 3875
+Wire Wire Line
+	5325 3975 5025 3975
+Wire Wire Line
+	5025 4375 5325 4375
+Wire Wire Line
+	5325 4475 5025 4475
+Wire Wire Line
+	5025 4575 5325 4575
+Wire Wire Line
+	5025 4675 5325 4675
+Text Label 6675 4375 0    60   ~ 0
+J3A_P
+Text Label 6675 3675 0    60   ~ 0
+J3B_P
+Text Label 6675 4575 0    60   ~ 0
+J3C_P
+Text Label 6675 3875 0    60   ~ 0
+J3D_P
+Wire Wire Line
+	6675 4375 6975 4375
+Wire Wire Line
+	6675 3675 6975 3675
+Wire Wire Line
+	6675 4575 6975 4575
+Wire Wire Line
+	6675 3875 6975 3875
+Text Label 6675 4475 0    60   ~ 0
+J3A_N
+Text Label 6675 3775 0    60   ~ 0
+J3B_N
+Text Label 6675 4675 0    60   ~ 0
+J3C_N
+Text Label 6675 3975 0    60   ~ 0
+J3D_N
+Wire Wire Line
+	6975 4475 6675 4475
+Wire Wire Line
+	6675 3775 6975 3775
+Wire Wire Line
+	6975 4675 6675 4675
+Wire Wire Line
+	6975 3975 6675 3975
+Wire Wire Line
+	5325 4075 5025 4075
+Wire Wire Line
+	5025 4175 5325 4175
+Text Label 6675 4075 0    60   ~ 0
+GND34
+Text Label 6675 4175 0    60   ~ 0
+VCC31
+Wire Wire Line
+	6675 4075 6975 4075
+Wire Wire Line
+	6975 4175 6675 4175
+Wire Wire Line
+	5025 4775 5325 4775
+Wire Wire Line
+	6675 4775 6975 4775
+Wire Wire Line
+	5025 4875 5325 4875
+Text Label 5325 4875 2    60   ~ 0
+VCC32
+Wire Wire Line
+	6975 4875 6675 4875
+Text Label 6675 4875 0    60   ~ 0
+VCC32
+Text Label 5325 5175 2    60   ~ 0
+J4A_P
+Text Label 5325 5275 2    60   ~ 0
+J4B_P
+Text Label 5325 5375 2    60   ~ 0
+J4C_P
+Text Label 5325 5475 2    60   ~ 0
+J4D_P
+Text Label 5325 5575 2    60   ~ 0
+GND34
+Text Label 5325 5675 2    60   ~ 0
+VCC41
+Text Label 5325 5875 2    60   ~ 0
+J4A_N
+Text Label 5325 5975 2    60   ~ 0
+J4B_N
+Text Label 5325 6075 2    60   ~ 0
+J4C_N
+Text Label 5325 6175 2    60   ~ 0
+J4D_N
+Text Label 5325 6275 2    60   ~ 0
+GND34
+Text Label 6675 6275 0    60   ~ 0
+GND34
+Text Notes 5450 5925 0    60   ~ 0
+XADC 1 <- A -> HS 3\nXADC 2 <- B -> HS 1\nXADC 3 <- C -> HS 4\nXADC 4 <- D -> HS 2
+Wire Wire Line
+	5325 5175 5025 5175
+Wire Wire Line
+	5325 5275 5025 5275
+Wire Wire Line
+	5325 5375 5025 5375
+Wire Wire Line
+	5325 5475 5025 5475
+Wire Wire Line
+	5025 5875 5325 5875
+Wire Wire Line
+	5325 5975 5025 5975
+Wire Wire Line
+	5025 6075 5325 6075
+Wire Wire Line
+	5025 6175 5325 6175
+Text Label 6675 5875 0    60   ~ 0
+J4A_P
+Text Label 6675 5175 0    60   ~ 0
+J4B_P
+Text Label 6675 6075 0    60   ~ 0
+J4C_P
+Text Label 6675 5375 0    60   ~ 0
+J4D_P
+Wire Wire Line
+	6675 5875 6975 5875
+Wire Wire Line
+	6675 5175 6975 5175
+Wire Wire Line
+	6675 6075 6975 6075
+Wire Wire Line
+	6675 5375 6975 5375
+Text Label 6675 5975 0    60   ~ 0
+J4A_N
+Text Label 6675 5275 0    60   ~ 0
+J4B_N
+Text Label 6675 6175 0    60   ~ 0
+J4C_N
+Text Label 6675 5475 0    60   ~ 0
+J4D_N
+Wire Wire Line
+	6975 5975 6675 5975
+Wire Wire Line
+	6675 5275 6975 5275
+Wire Wire Line
+	6975 6175 6675 6175
+Wire Wire Line
+	6975 5475 6675 5475
+Wire Wire Line
+	5325 5575 5025 5575
+Wire Wire Line
+	5025 5675 5325 5675
+Text Label 6675 5575 0    60   ~ 0
+GND34
+Text Label 6675 5675 0    60   ~ 0
+VCC41
+Wire Wire Line
+	6675 5575 6975 5575
+Wire Wire Line
+	6975 5675 6675 5675
+Wire Wire Line
+	5025 6275 5325 6275
+Wire Wire Line
+	6675 6275 6975 6275
+Wire Wire Line
+	5025 6375 5325 6375
+Text Label 5325 6375 2    60   ~ 0
+VCC42
+Wire Wire Line
+	6975 6375 6675 6375
+Text Label 6675 6375 0    60   ~ 0
+VCC42
+Wire Notes Line
+	4625 3525 7375 3525
+Text Notes 5850 3525 0    30   ~ 0
+Breakable on this line
+Wire Notes Line
+	475  6300 2375 6300
+Wire Notes Line
+	2375 6300 2375 7800
+Text Notes 750  7300 0    60   ~ 0
+XADC 1 <- A -> HS 3\nXADC 2 <- B -> HS 1\nXADC 3 <- C -> HS 4\nXADC 4 <- D -> HS 2
 $EndSCHEMATC
