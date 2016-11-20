@@ -1,3 +1,6 @@
 [submodule "external/pmod"]
 	path = external/pmod
 	url = http://github.com/mithro/kicad-pmod.git
+[submodule "external/length-matching"]
+	path = external/length-matching
+	url = https://github.com/mithro/kicad-length-matching-checks
