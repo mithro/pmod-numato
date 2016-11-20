@@ -164,8 +164,8 @@ F 3 "" H 7075 6025 60  0000 C CNN
 $EndComp
 Text Label 6675 1775 0    60   ~ 0
 GND1
-Text Notes 5450 1425 0    60   ~ 0
-XADC 1 <- A -> HS 3\nXADC 2 <- B -> HS 1\nXADC 3 <- C -> HS 4\nXADC 4 <- D -> HS 2
+Text Notes 5450 1400 0    60   ~ 0
+XADC 1 <- A -> HS 1\nXADC 2 <- B -> HS 3\nXADC 3 <- C -> HS 2\nXADC 4 <- D -> HS 4
 Wire Wire Line
 	5325 675  5025 675 
 Wire Wire Line
@@ -182,38 +182,38 @@ Wire Wire Line
 	5025 1575 5325 1575
 Wire Wire Line
 	5025 1675 5325 1675
-Text Label 6675 1375 0    60   ~ 0
-J1A_P
 Text Label 6675 675  0    60   ~ 0
+J1A_P
+Text Label 6675 1375 0    60   ~ 0
 J1B_P
-Text Label 6675 1575 0    60   ~ 0
-J1C_P
 Text Label 6675 875  0    60   ~ 0
+J1C_P
+Text Label 6675 1575 0    60   ~ 0
 J1D_P
-Wire Wire Line
-	6675 1375 6975 1375
 Wire Wire Line
 	6675 675  6975 675 
 Wire Wire Line
-	6675 1575 6975 1575
+	6675 1375 6975 1375
 Wire Wire Line
 	6675 875  6975 875 
-Text Label 6675 1475 0    60   ~ 0
-J1A_N
+Wire Wire Line
+	6675 1575 6975 1575
 Text Label 6675 775  0    60   ~ 0
+J1A_N
+Text Label 6675 1475 0    60   ~ 0
 J1B_N
-Text Label 6675 1675 0    60   ~ 0
-J1C_N
 Text Label 6675 975  0    60   ~ 0
+J1C_N
+Text Label 6675 1675 0    60   ~ 0
 J1D_N
 Wire Wire Line
-	6975 1475 6675 1475
+	6975 775  6675 775 
 Wire Wire Line
-	6675 775  6975 775 
-Wire Wire Line
-	6975 1675 6675 1675
+	6675 1475 6975 1475
 Wire Wire Line
 	6975 975  6675 975 
+Wire Wire Line
+	6975 1675 6675 1675
 Wire Wire Line
 	5325 1075 5025 1075
 Wire Wire Line
@@ -238,8 +238,6 @@ Wire Wire Line
 	6975 1875 6675 1875
 Text Label 6675 1875 0    60   ~ 0
 VCC12
-Text Notes 900  6850 0    60   ~ 0
-HS1 <- B -> XADC 2\nHS2 <- D -> XADC 4\nHS3 <- A -> XADC 1\nHS4 <- C -> XADC 3\n
 Text Label 5325 2175 2    60   ~ 0
 J2A_P
 Text Label 5325 2275 2    60   ~ 0
@@ -264,8 +262,6 @@ Text Label 5325 3275 2    60   ~ 0
 GND2
 Text Label 6675 3275 0    60   ~ 0
 GND2
-Text Notes 5450 2925 0    60   ~ 0
-XADC 1 <- A -> HS 3\nXADC 2 <- B -> HS 1\nXADC 3 <- C -> HS 4\nXADC 4 <- D -> HS 2
 Wire Wire Line
 	5325 2175 5025 2175
 Wire Wire Line
@@ -282,38 +278,38 @@ Wire Wire Line
 	5025 3075 5325 3075
 Wire Wire Line
 	5025 3175 5325 3175
-Text Label 6675 2875 0    60   ~ 0
-J2A_P
 Text Label 6675 2175 0    60   ~ 0
+J2A_P
+Text Label 6675 2875 0    60   ~ 0
 J2B_P
-Text Label 6675 3075 0    60   ~ 0
-J2C_P
 Text Label 6675 2375 0    60   ~ 0
+J2C_P
+Text Label 6675 3075 0    60   ~ 0
 J2D_P
-Wire Wire Line
-	6675 2875 6975 2875
 Wire Wire Line
 	6675 2175 6975 2175
 Wire Wire Line
-	6675 3075 6975 3075
+	6675 2875 6975 2875
 Wire Wire Line
 	6675 2375 6975 2375
-Text Label 6675 2975 0    60   ~ 0
-J2A_N
+Wire Wire Line
+	6675 3075 6975 3075
 Text Label 6675 2275 0    60   ~ 0
+J2A_N
+Text Label 6675 2975 0    60   ~ 0
 J2B_N
-Text Label 6675 3175 0    60   ~ 0
-J2C_N
 Text Label 6675 2475 0    60   ~ 0
+J2C_N
+Text Label 6675 3175 0    60   ~ 0
 J2D_N
 Wire Wire Line
-	6975 2975 6675 2975
+	6975 2275 6675 2275
 Wire Wire Line
-	6675 2275 6975 2275
-Wire Wire Line
-	6975 3175 6675 3175
+	6675 2975 6975 2975
 Wire Wire Line
 	6975 2475 6675 2475
+Wire Wire Line
+	6975 3175 6675 3175
 Wire Wire Line
 	5325 2575 5025 2575
 Wire Wire Line
@@ -362,8 +358,6 @@ Text Label 5325 4775 2    60   ~ 0
 GND34
 Text Label 6675 4775 0    60   ~ 0
 GND34
-Text Notes 5450 4425 0    60   ~ 0
-XADC 1 <- A -> HS 3\nXADC 2 <- B -> HS 1\nXADC 3 <- C -> HS 4\nXADC 4 <- D -> HS 2
 Wire Wire Line
 	5325 3675 5025 3675
 Wire Wire Line
@@ -380,38 +374,38 @@ Wire Wire Line
 	5025 4575 5325 4575
 Wire Wire Line
 	5025 4675 5325 4675
-Text Label 6675 4375 0    60   ~ 0
-J3A_P
 Text Label 6675 3675 0    60   ~ 0
+J3A_P
+Text Label 6675 4375 0    60   ~ 0
 J3B_P
-Text Label 6675 4575 0    60   ~ 0
-J3C_P
 Text Label 6675 3875 0    60   ~ 0
+J3C_P
+Text Label 6675 4575 0    60   ~ 0
 J3D_P
-Wire Wire Line
-	6675 4375 6975 4375
 Wire Wire Line
 	6675 3675 6975 3675
 Wire Wire Line
-	6675 4575 6975 4575
+	6675 4375 6975 4375
 Wire Wire Line
 	6675 3875 6975 3875
-Text Label 6675 4475 0    60   ~ 0
-J3A_N
+Wire Wire Line
+	6675 4575 6975 4575
 Text Label 6675 3775 0    60   ~ 0
+J3A_N
+Text Label 6675 4475 0    60   ~ 0
 J3B_N
-Text Label 6675 4675 0    60   ~ 0
-J3C_N
 Text Label 6675 3975 0    60   ~ 0
+J3C_N
+Text Label 6675 4675 0    60   ~ 0
 J3D_N
 Wire Wire Line
-	6975 4475 6675 4475
+	6975 3775 6675 3775
 Wire Wire Line
-	6675 3775 6975 3775
-Wire Wire Line
-	6975 4675 6675 4675
+	6675 4475 6975 4475
 Wire Wire Line
 	6975 3975 6675 3975
+Wire Wire Line
+	6975 4675 6675 4675
 Wire Wire Line
 	5325 4075 5025 4075
 Wire Wire Line
@@ -460,8 +454,6 @@ Text Label 5325 6275 2    60   ~ 0
 GND34
 Text Label 6675 6275 0    60   ~ 0
 GND34
-Text Notes 5450 5925 0    60   ~ 0
-XADC 1 <- A -> HS 3\nXADC 2 <- B -> HS 1\nXADC 3 <- C -> HS 4\nXADC 4 <- D -> HS 2
 Wire Wire Line
 	5325 5175 5025 5175
 Wire Wire Line
@@ -478,38 +470,38 @@ Wire Wire Line
 	5025 6075 5325 6075
 Wire Wire Line
 	5025 6175 5325 6175
-Text Label 6675 5875 0    60   ~ 0
-J4A_P
 Text Label 6675 5175 0    60   ~ 0
+J4A_P
+Text Label 6675 5875 0    60   ~ 0
 J4B_P
-Text Label 6675 6075 0    60   ~ 0
-J4C_P
 Text Label 6675 5375 0    60   ~ 0
+J4C_P
+Text Label 6675 6075 0    60   ~ 0
 J4D_P
-Wire Wire Line
-	6675 5875 6975 5875
 Wire Wire Line
 	6675 5175 6975 5175
 Wire Wire Line
-	6675 6075 6975 6075
+	6675 5875 6975 5875
 Wire Wire Line
 	6675 5375 6975 5375
-Text Label 6675 5975 0    60   ~ 0
-J4A_N
+Wire Wire Line
+	6675 6075 6975 6075
 Text Label 6675 5275 0    60   ~ 0
+J4A_N
+Text Label 6675 5975 0    60   ~ 0
 J4B_N
-Text Label 6675 6175 0    60   ~ 0
-J4C_N
 Text Label 6675 5475 0    60   ~ 0
+J4C_N
+Text Label 6675 6175 0    60   ~ 0
 J4D_N
 Wire Wire Line
-	6975 5975 6675 5975
+	6975 5275 6675 5275
 Wire Wire Line
-	6675 5275 6975 5275
-Wire Wire Line
-	6975 6175 6675 6175
+	6675 5975 6975 5975
 Wire Wire Line
 	6975 5475 6675 5475
+Wire Wire Line
+	6975 6175 6675 6175
 Wire Wire Line
 	5325 5575 5025 5575
 Wire Wire Line
@@ -542,6 +534,14 @@ Wire Notes Line
 	475  6300 2375 6300
 Wire Notes Line
 	2375 6300 2375 7800
-Text Notes 750  7300 0    60   ~ 0
-XADC 1 <- A -> HS 3\nXADC 2 <- B -> HS 1\nXADC 3 <- C -> HS 4\nXADC 4 <- D -> HS 2
+Text Notes 5450 2900 0    60   ~ 0
+XADC 1 <- A -> HS 1\nXADC 2 <- B -> HS 3\nXADC 3 <- C -> HS 2\nXADC 4 <- D -> HS 4
+Text Notes 1550 2475 0    60   ~ 0
+XADC 1 <- A -> HS 1\nXADC 2 <- B -> HS 3\nXADC 3 <- C -> HS 2\nXADC 4 <- D -> HS 4
+Text Notes 5450 4400 0    60   ~ 0
+XADC 1 <- A -> HS 1\nXADC 2 <- B -> HS 3\nXADC 3 <- C -> HS 2\nXADC 4 <- D -> HS 4
+Text Notes 5450 5900 0    60   ~ 0
+XADC 1 <- A -> HS 1\nXADC 2 <- B -> HS 3\nXADC 3 <- C -> HS 2\nXADC 4 <- D -> HS 4
+Text Notes 7675 2475 0    60   ~ 0
+HS1 <- B -> XADC 1\nHS2 <- D -> XADC 3\nHS3 <- A -> XADC 2\nHS4 <- C -> XADC 4\n
 $EndSCHEMATC
