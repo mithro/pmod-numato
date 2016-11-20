@@ -77,7 +77,7 @@ J1D_P
 Text Label 5325 1075 2    60   ~ 0
 GND1
 Text Label 5325 1175 2    60   ~ 0
-VCC11
+VCC1
 Text Label 5325 1375 2    60   ~ 0
 J1A_N
 Text Label 5325 1475 2    60   ~ 0
@@ -221,7 +221,7 @@ Wire Wire Line
 Text Label 6675 1075 0    60   ~ 0
 GND1
 Text Label 6675 1175 0    60   ~ 0
-VCC11
+VCC1
 Wire Wire Line
 	6675 1075 6975 1075
 Wire Wire Line
@@ -233,11 +233,11 @@ Wire Wire Line
 Wire Wire Line
 	5025 1875 5325 1875
 Text Label 5325 1875 2    60   ~ 0
-VCC12
+VCC1
 Wire Wire Line
 	6975 1875 6675 1875
 Text Label 6675 1875 0    60   ~ 0
-VCC12
+VCC1
 Text Label 5325 2175 2    60   ~ 0
 J2A_P
 Text Label 5325 2275 2    60   ~ 0
@@ -249,7 +249,7 @@ J2D_P
 Text Label 5325 2575 2    60   ~ 0
 GND2
 Text Label 5325 2675 2    60   ~ 0
-VCC21
+VCC2
 Text Label 5325 2875 2    60   ~ 0
 J2A_N
 Text Label 5325 2975 2    60   ~ 0
@@ -317,7 +317,7 @@ Wire Wire Line
 Text Label 6675 2575 0    60   ~ 0
 GND2
 Text Label 6675 2675 0    60   ~ 0
-VCC21
+VCC2
 Wire Wire Line
 	6675 2575 6975 2575
 Wire Wire Line
@@ -329,11 +329,11 @@ Wire Wire Line
 Wire Wire Line
 	5025 3375 5325 3375
 Text Label 5325 3375 2    60   ~ 0
-VCC22
+VCC2
 Wire Wire Line
 	6975 3375 6675 3375
 Text Label 6675 3375 0    60   ~ 0
-VCC22
+VCC2
 Text Label 5325 3675 2    60   ~ 0
 J3A_P
 Text Label 5325 3775 2    60   ~ 0
@@ -345,7 +345,7 @@ J3D_P
 Text Label 5325 4075 2    60   ~ 0
 GND34
 Text Label 5325 4175 2    60   ~ 0
-VCC31
+VCC3
 Text Label 5325 4375 2    60   ~ 0
 J3A_N
 Text Label 5325 4475 2    60   ~ 0
@@ -413,7 +413,7 @@ Wire Wire Line
 Text Label 6675 4075 0    60   ~ 0
 GND34
 Text Label 6675 4175 0    60   ~ 0
-VCC31
+VCC3
 Wire Wire Line
 	6675 4075 6975 4075
 Wire Wire Line
@@ -425,11 +425,11 @@ Wire Wire Line
 Wire Wire Line
 	5025 4875 5325 4875
 Text Label 5325 4875 2    60   ~ 0
-VCC32
+VCC3
 Wire Wire Line
 	6975 4875 6675 4875
 Text Label 6675 4875 0    60   ~ 0
-VCC32
+VCC3
 Text Label 5325 5175 2    60   ~ 0
 J4A_P
 Text Label 5325 5275 2    60   ~ 0
@@ -441,7 +441,7 @@ J4D_P
 Text Label 5325 5575 2    60   ~ 0
 GND34
 Text Label 5325 5675 2    60   ~ 0
-VCC41
+VCC4
 Text Label 5325 5875 2    60   ~ 0
 J4A_N
 Text Label 5325 5975 2    60   ~ 0
@@ -509,7 +509,7 @@ Wire Wire Line
 Text Label 6675 5575 0    60   ~ 0
 GND34
 Text Label 6675 5675 0    60   ~ 0
-VCC41
+VCC4
 Wire Wire Line
 	6675 5575 6975 5575
 Wire Wire Line
@@ -521,11 +521,11 @@ Wire Wire Line
 Wire Wire Line
 	5025 6375 5325 6375
 Text Label 5325 6375 2    60   ~ 0
-VCC42
+VCC4
 Wire Wire Line
 	6975 6375 6675 6375
 Text Label 6675 6375 0    60   ~ 0
-VCC42
+VCC4
 Wire Notes Line
 	4625 3525 7375 3525
 Text Notes 5850 3525 0    30   ~ 0
