@@ -11,6 +11,18 @@ This adapter is useful for the following;
 The traces have been length and skewed matched with a tolerance of ~1 mil. The
 traces are 0.8537 inches // 21.6mm long.
 
+
+To use Numato spacing device on Digilent host;
+ * B side should be up.
+ * The XHS side should be loaded with pins.
+ * The XADC side should be loaded with socket.
+
+To use Digilent spacing device on Numato host;
+ * A side should be up.
+ * The XHS side should be loaded with socket.
+ * The XADC side should be loaded with pins.
+
+
 # Board Manufacturing
 
  *  5mil (0.127mm) trace width
