@@ -8,9 +8,11 @@ This adapter is useful for the following;
  * From from Numato's spacing (0.3145 inch, pin to pin) to
    Digilent's spacing (0.3 inch, edge to edge).
 
-The traces have been length and skewed matched with a tolerance of ~1 mil. The
-traces are 0.8537 inches // 21.6mm long.
+The traces in a diff pair have been length and skewed matched with a tolerance
+of ~1 mil.
 
+The diff pairs as a group have been length matched to 0.8537 inches (21.6mm)
+long with a tolerance of 20 mil (0.5mm).
 
 To use Numato spacing device on Digilent host;
  * B side should be up.

@@ -150,7 +150,7 @@
     (add_net /VCC4)
   )
 
-  (net_class LVDS_DP0.0254/0.0254 ""
+  (net_class LVDS_DP0.0254/0.5000 ""
     (clearance 0.126975)
     (trace_width 0.127)
     (via_dia 0.6096)
